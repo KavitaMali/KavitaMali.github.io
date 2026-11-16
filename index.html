@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavita Patil | Azure Integration Developer</title>
+  <meta name="description" content="Portfolio of Kavita Patil, Azure Integration Developer specializing in Azure Logic Apps, Functions, APIM and cloud integration.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 8%;
+      background: #111827;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav h2 { color: #60a5fa; }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover { color: #60a5fa; }
+
+    section {
+      padding: 75px 10%;
+    }
+
+    .hero {
+      min-height: 490px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: linear-gradient(120deg, #111827, #172554);
+    }
+
+    .hero h1 {
+      font-size: clamp(34px, 6vw, 55px);
+      color: white;
+      line-height: 1.2;
+      margin: 15px 0;
+    }
+
+    .hero h2 {
+      color: #60a5fa;
+      font-size: 24px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #cbd5e1;
+      margin: 15px 0 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 22px;
+      background: #2563eb;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .btn:hover { background: #1d4ed8; }
+
+    .section-title {
+      font-size: 30px;
+      color: #60a5fa;
+      margin-bottom: 25px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #172033;
+      padding: 23px;
+      border-radius: 10px;
+      border: 1px solid #29364c;
+    }
+
+    .card h3 {
+      color: #93c5fd;
+      margin-bottom: 10px;
+    }
+
+    .card p { color: #cbd5e1; font-size: 14px; }
+
+    .skills span {
+      display: inline-block;
+      background: #1e3a5f;
+      color: #bfdbfe;
+      padding: 8px 15px;
+      border-radius: 20px;
+      margin: 6px;
+      font-size: 14px;
+    }
+
+    ul { padding-left: 20px; }
+
+    li { margin: 8px 0; }
+
+    .contact a { color: #60a5fa; }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111827;
+      color: #9ca3af;
+    }
+
+    @media(max-width: 650px) {
+      nav {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a { margin: 0 6px; }
+      section { padding: 55px 7%; }
+      .hero { min-height: 420px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <h2>Kavita Patil</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <p>HELLO, WELCOME TO MY PORTFOLIO</p>
+  <h1>Hi, I'm Kavita Patil</h1>
+  <h2>Azure Integration Developer</h2>
+  <p>
+    I specialize in building scalable cloud integration solutions
+    using Microsoft Azure Integration Services, .NET and
+    event-driven architectures.
+  </p>
+  <div>
+    <a href="#projects" class="btn">Explore My Projects</a>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p>
+    I am an Azure Integration Developer with 4+ years of experience
+    in designing, developing, testing and supporting cloud-based
+    integration solutions.
+  </p>
+  <p>
+    My experience includes developing workflows using Azure Logic Apps,
+    building serverless applications using Azure Functions, managing
+    APIs through Azure API Management and implementing asynchronous
+    communication using Azure Event Hubs and Service Bus.
+  </p>
+  <p>
+    I enjoy solving integration challenges, improving application
+    performance and building reliable cloud solutions.
+  </p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Technical Skills</h2>
+  <div class="skills">
+    <span>Azure Logic Apps</span>
+    <span>Azure Functions</span>
+    <span>Azure API Management</span>
+    <span>Azure Event Hubs</span>
+    <span>Azure Service Bus</span>
+    <span>Azure Key Vault</span>
+    <span>Azure App Service</span>
+    <span>C# / .NET</span>
+    <span>REST APIs</span>
+    <span>SOAP APIs</span>
+    <span>XML / JSON</span>
+    <span>XSLT</span>
+    <span>Azure DevOps</span>
+    <span>GitHub</span>
+    <span>Log Analytics</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>Azure Cost Visibility & Anomaly Monitoring</h3>
+      <p>
+        A cloud cost monitoring solution designed to provide
+        cost visibility and identify unusual spending patterns.
+      </p>
+      <br>
+      <a href="https://github.com/KavitaMali/azure-cost-visibility-anomaly-monitoring"
+         target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+      <h3>Azure Integration Architecture</h3>
+      <p>
+        Integration solutions using Logic Apps, Azure Functions
+        and Event Hubs with loosely coupled communication.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Azure API Management</h3>
+      <p>
+        API management implementation with subscription keys,
+        JWT concepts, rate limiting and API policies.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Service Bus Dead Letter Handling</h3>
+      <p>
+        Message retry, dead-letter monitoring and
+        reprocessing patterns for reliable messaging.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Professional Experience</h2>
+  <div class="card">
+    <h3>Infosys – Technology Analyst</h3>
+    <p>Azure Integration Services | 2022 – Present</p>
+    <ul>
+      <li>Develop and maintain cloud integration solutions using Azure Logic Apps.</li>
+      <li>Build serverless components using Azure Functions and .NET.</li>
+      <li>Manage APIs and implement policies using Azure API Management.</li>
+      <li>Work with event-driven and pub-sub integration patterns.</li>
+      <li>Monitor production integrations using Azure Log Analytics.</li>
+      <li>Perform testing, troubleshooting and production support.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2 class="section-title">Certifications</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Microsoft Azure Fundamentals</h3>
+      <p>AZ-900</p>
+    </div>
+    <div class="card">
+      <h3>Ivalua L1</h3>
+      <p>Professional Certification</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Let's Connect</h2>
+  <p>Interested in discussing Azure integration and cloud technologies?</p>
+  <p>GitHub:
+    <a href="https://github.com/KavitaMali" target="_blank"
+       rel="noopener noreferrer">Visit My GitHub</a>
+  </p>
+  <p>LinkedIn:
+    <a href="https://www.linkedin.com/" target="_blank"
+       rel="noopener noreferrer">Connect with Me</a>
+  </p>
+  <p>Email: Add your professional email address here</p>
+</section>
+
+<footer>
+  <p>© 2026 Kavita Patil | Azure Integration Developer</p>
+</footer>
+
+</body>
+</html>
